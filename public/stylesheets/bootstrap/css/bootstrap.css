@@ -5990,7 +5990,7 @@ a.badge:hover {
 }
 
 .hero-unit {
-  padding: 60px;
+  padding: 20px;
   margin-bottom: 30px;
   font-size: 18px;
   font-weight: 200;
@@ -6008,6 +6008,7 @@ a.badge:hover {
   line-height: 1;
   letter-spacing: -1px;
   color: inherit;
+  text-align: center;
 }
 
 .hero-unit li {

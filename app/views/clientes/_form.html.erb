@@ -1,0 +1,14 @@
+<% form_for(@cliente) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :nome %><%= f.text_field :nome %><br />
+    <%= f.label :telefone %><%= f.text_field :telefone %><br />
+    <%= f.label :rg %><%= f.text_field :rg %><br />
+    <%= f.label :cpf%><%= f.text_field :cpf %>
+  </p>
+
+  <p>
+    <%= f.submit 'Salvar' %>
+  </p>
+<% end %>

@@ -3,7 +3,8 @@ class CreateClientes < ActiveRecord::Migration
     create_table :clientes do |t|
       t.string :nome
       t.integer :telefone
-
+      t.string :rg
+      t.string :cpf
       t.timestamps
     end
   end

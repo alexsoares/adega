@@ -1,20 +1,6 @@
-<h1>Editing cliente</h1>
+<h1>Alterar cliente</h1>
 
-<% form_for(@cliente) do |f| %>
-  <%= f.error_messages %>
+<%= render "form" %>
 
-  <p>
-    <%= f.label :nome %><br />
-    <%= f.text_field :nome %>
-  </p>
-  <p>
-    <%= f.label :telefone %><br />
-    <%= f.text_field :telefone %>
-  </p>
-  <p>
-    <%= f.submit 'Update' %>
-  </p>
-<% end %>
-
-<%= link_to 'Show', @cliente %> |
-<%= link_to 'Back', clientes_path %>
+<%= link_to 'Exibir', @cliente %> |
+<%= link_to 'Voltar', clientes_path %>
